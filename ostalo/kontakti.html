@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vogram</title>
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="stylesheet" href="stylesheets/reset.css" type="text/css" />
+  <link rel="stylesheet" href="stylesheets/stylesheet.css" type="text/css" />
+  <script type="text/javascript" src="javascript/jquery.js"></script>
+
+  <!--[if lt IE 10]> <link rel="stylesheet" href="stylesheets/addonIE8.css" type="text/css" /><![endif]-->
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+</head>
+<body>
+<div class="container holder">
+  <div class="grid_12 site-holder">
+    <div class="header">
+      <div class="header-items">
+        <a href="http://linkedin.com/in/vogram" target="_blank"><img src="images/icon-linked.png" alt="" /></a>
+        <a href="http://twitter.com/vogram" target="_blank"><img src="images/icon-twitter.png" alt=""/></a>
+        <a href="http://youtube.com/user/vogram" target="_blank"><img src="images/icon-yt.png" alt="" /></a>
+        <a href="http://facebook.com/vogram-serbia" target="_blank"><img src="images/icon-fb.png" alt="" /></a>
+        <form class="header-search" action="#">
+          <div class="wrapper">
+            <button class="search_button" type="submit"><img title="Search" src="images/icon-magnify.png" alt="Find" /></button>
+            <input type="text" placeholder="Pretraga sajta.." name="search" class="search_box">
+          </div>
+        </form>
+        <a href="#"><img src="images/icon-rs.png" alt="" /></a>
+        <a href="#"><img src="images/icon-en.png" alt="" /></a>
+      </div>
+    </div>
+    <div class="logo-holder">
+      <div class="logo">
+        <img src="images/logo.png" alt="Logo" />
+      </div>
+      <div class="logo-background"></div>
+    </div>
+    <div class="clear separator"></div>
+    <div class="main-holder" id="kontakti">
+      <div class="grid_2 left-column">
+        <div class="sidebar">
+          <ul>
+            <li><a href="index.html">Naslovna</a></li>
+
+            <li class="main-menu" type="o-nama"><a href="#">O nama</a></li>
+            <li class="sub-menu o-nama"><a href="o-nama/o-nama.html">o nama</a></li>
+            <li class="sub-menu o-nama"><a href="o-nama/o-mirku.html">o Mirku</a></li>
+            <li class="sub-menu o-nama"><a href="o-nama/press.html">press</a></li>
+
+            <li class="main-menu" type="projekti"><a href="#">Projekti</a></li>
+            <li class="sub-menu projekti"><a href="#">kultura i umetnost</a></li>
+            <li class="sub-menu projekti"><a href="#">ekologija</a></li>
+            <li class="sub-menu projekti"><a href="#">edukacija i seminari</a></li>
+            <li class="sub-menu projekti"><a href="projekti/akcije/glavna.html">akcije</a></li>
+
+            <li class="main-menu" type="edukacija"><a href="#">Edukacija</a></li>
+            <li class="sub-menu edukacija"><a href="#">radionice i seminari</a></li>
+            <li class="sub-menu edukacija"><a href="#">edukativni materijali</a></li>
+
+            <li class="main-menu" type="multimedija"><a href="#">Multimedija</a></li>
+            <li class="sub-menu multimedija"><a href="#">video</a></li>
+            <li class="sub-menu multimedija"><a href="#">audio</a></li>
+            <li class="sub-menu multimedija"><a href="#">dizajn</a></li>
+            <li class="sub-menu multimedija"><a href="#">murali</a></li>
+
+            <li class="main-menu" type="online-shop"><a href="#">Online shop</a></li>
+            <li class="sub-menu online-shop"><a href="#">dizajn i multimedia</a></li>
+            <li class="sub-menu online-shop"><a href="#">Vogram moda</a></li>
+
+            <li><a href="#">Partneri</a></li>
+            <li><a href="kontakti.html">Kontakti</a></li>
+          </ul>
+        </div>
+      </div>
+      <script type="text/javascript">
+        $("li.main-menu").hover(
+            function () {
+              var type_name = $(this).attr('type');
+              var child = $("li." + type_name+":first");
+              if (child.is(":visible")) {
+
+              } else {
+                $("li.sub-menu").slideUp('medium');
+                $("li."+type_name).slideDown('medium');
+              }
+            }
+        );
+
+      </script>
+      <div class="grid_8 right-column">
+        <div class="article-title">
+          <h3>KONTAKTI</h3>
+        </div>
+        <div class="shadow">
+          <div class="inner-shadow">
+            <div class="content-holder">
+              <div class="contact-icon">
+                <img src="images/kontakti/telefon.png"> +381 (0)21 478 0337
+              </div>
+              <div class="contact-icon">
+                <img src="images/kontakti/email.png"> office@vogram-serbia.com
+              </div>
+              <div class="contact-icon">
+                <img src="images/kontakti/adresa.png"> Save Vukovića 11, 21000 Novi Sad, Srbija
+              </div>
+              <div class="clear separator"></div>
+              <div class="contact-info">
+                <img src="images/kontakti/bojan.png">
+                <div>
+                  Predsednik udruženja <br/><br/>
+                  <span style="font-weight: bold">Bojan Stanković</span> <br/><br/>
+                  tel: <span style="font-weight: bold; color: #b9c734">+381 (0)69 33 84 853</span>
+                  <br /><br />
+                  Email: <a style="font-weight: bold; color: #b9c734; text-decoration: none;" href="mailto:bojan.stankovic@vogram-serbia.com">bojan.stankovic@vogram-serbia.com</a>
+                  <br /><br />
+                  biografija <span style="font-weight: bold; color: #b9c734" >>></span>
+                </div>
+              </div>
+              <div class="contact-info">
+                <img src="images/kontakti/bora.png">
+                <div>
+                  Komunikacije i logistika <br/><br/>
+                  <span style="font-weight: bold">Borislav Vesnić</span> <br/><br/>
+                  tel: <span style="font-weight: bold; color: #b9c734">+381 (0)64 20 85 985</span>
+                  <br /><br />
+                  Email: <a style="font-weight: bold; color: #b9c734; text-decoration: none;" href="mailto:borislav.vesnic@vogram-serbia.com">borislav.vesnic@vogram-serbia.com</a>
+                  <br /><br />
+                  biografija <span style="font-weight: bold; color: #b9c734" >>></span>
+                </div>
+              </div>
+              <div class="contact-info">
+                <img src="images/kontakti/jasmina.png">
+                <div>
+                  Odnosi sa javnošću <br/><br/>
+                  <span style="font-weight: bold">Jasmina Bošković</span> <br/><br/>
+                  tel: <span style="font-weight: bold; color: #b9c734">+381 (0)64 27 74 566</span>
+                  <br /><br />
+                  Email: <a style="font-weight: bold; color: #b9c734; text-decoration: none;" href="mailto:jasmina.boskovic@vogram-serbia.com">jasmina.boskovic@vogram-serbia.com</a>
+                  <br /><br />
+                  biografija <span style="font-weight: bold; color: #b9c734" >>></span>
+                </div>
+              </div>
+              <div class="contact-info">
+                <img src="images/kontakti/gorjana.png">
+                <div>
+                  Eksterni odnosi <br/><br/>
+                  <span style="font-weight: bold">Gorjana Zekanović</span> <br/><br/>
+                  tel: <span style="font-weight: bold; color: #b9c734">+381 (0)62 85 23 202</span>
+                  <br /><br />
+                  Email: <a style="font-weight: bold; color: #b9c734; text-decoration: none;" href="mailto:gorjana.zekanovic@vogram-serbia.com">gorjana.zekanovic@vogram-serbia.com</a>
+                  <br /><br />
+                  biografija <span style="font-weight: bold; color: #b9c734" >>></span>
+                </div>
+              </div>
+              <div class="contact-info">
+                <img src="images/kontakti/martin.png">
+                <div>
+                  Omladinska politika <br/><br/>
+                  <span style="font-weight: bold">Dragan Martinović</span> <br/><br/>
+                  tel: <span style="font-weight: bold; color: #b9c734">+381 (0)64 91 02 352</span>
+                  <br /><br />
+                  Email: <a style="font-weight: bold; color: #b9c734; text-decoration: none;" href="mailto:dragan.martinovic@vogram-serbia.com">dragan.martinovic@vogram-serbia.com</a>
+                  <br /><br />
+                  biografija <span style="font-weight: bold; color: #b9c734" >>></span>
+                </div>
+              </div>
+              <div class="contact-info">
+                <img src="images/kontakti/filip.png">
+                <div>
+                  Umetnički koordinator <br/><br/>
+                  <span style="font-weight: bold">Filip Veber</span> <br/><br/>
+                  tel: <span style="font-weight: bold; color: #b9c734">+381 (0)62 10 39 457</span>
+                  <br /><br />
+                  Email: <a style="font-weight: bold; color: #b9c734; text-decoration: none;" href="mailto:filip.veber@vogram-serbia.com">filip.veber@vogram-serbia.com</a>
+                  <br /><br />
+                  biografija <span style="font-weight: bold; color: #b9c734" >>></span>
+                </div>
+              </div>
+              <div class="contact-info">
+                <img src="images/kontakti/natalija.png">
+                <div>
+                  Administrativni poslovi <br/><br/>
+                  <span style="font-weight: bold">Natalija Marić</span> <br/><br/>
+                  tel: <span style="font-weight: bold; color: #b9c734">+381 (0)63 74 29 288</span>
+                  <br /><br />
+                  Email: <a style="font-weight: bold; color: #b9c734; text-decoration: none;" href="mailto:natalija.maric@vogram-serbia.com">natalija.maric@vogram-serbia.com</a>
+                  <br /><br />
+                  biografija <span style="font-weight: bold; color: #b9c734" >>></span>
+                </div>
+              </div>
+              <div class="contact-info">
+                <img src="images/kontakti/dusan.png">
+                <div>
+                  Audio video produkcija <br/><br/>
+                  <span style="font-weight: bold">Dusan Brković</span> <br/><br/>
+                  tel: <span style="font-weight: bold; color: #b9c734">+381 (0)64 32 87 906</span>
+                  <br /><br />
+                  Email: <a style="font-weight: bold; color: #b9c734; text-decoration: none;" href="mailto:dusan.brkovic@vogram-serbia.com">dusan.brkovic@vogram-serbia.com</a>
+                  <br /><br />
+                  biografija <span style="font-weight: bold; color: #b9c734" >>></span>
+                </div>
+              </div>
+              <div class="contact-info">
+                <img src="images/kontakti/valentina.png">
+                <div>
+                  Modni koordinator <br/><br/>
+                  <span style="font-weight: bold">Valentina Tot</span> <br/><br/>
+                  tel: <span style="font-weight: bold; color: #b9c734">+381 (0)64 90 14 486</span>
+                  <br /><br />
+                  Email: <a style="font-weight: bold; color: #b9c734; text-decoration: none;" href="mailto:valentina.tot@vogram-serbia.com">valentina.tot@vogram-serbia.com</a>
+                  <br /><br />
+                  biografija <span style="font-weight: bold; color: #b9c734" >>></span>
+                </div>
+              </div>
+              <div class="contact-info">
+                <img src="images/kontakti/mirko.png">
+                <div>
+                  Idejni tvorac <br/><br/>
+                  <span style="font-weight: bold">Mirko Vogramić</span> <br/><br/>
+                  <br /><br /><br />
+                  Email: <a style="font-weight: bold; color: #b9c734; text-decoration: none;" href="mailto:mirko.vogramic@vogram-serbia.com">mirko.vogramic@vogram-serbia.com</a>
+                  <br /><br />
+                  biografija <span style="font-weight: bold; color: #b9c734" >>></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-separator"></div>
+      <p>2012 VOGRAM Srbija| Kreirano od strane VOGRAM tima</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

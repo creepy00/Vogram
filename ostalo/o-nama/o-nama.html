@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vogram</title>
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="stylesheet" href="../stylesheets/reset.css" type="text/css" />
+  <link rel="stylesheet" href="../stylesheets/stylesheet.css" type="text/css" />
+  <script type="text/javascript" src="../javascript/jquery.js"></script>
+
+  <!--[if lt IE 10]> <link rel="stylesheet" href="../stylesheets/addonIE8.css" type="text/css" /><![endif]-->
+  <link rel="icon" type="image/png" href="../images/favicon.png" />
+</head>
+<body>
+<div class="container holder">
+  <div class="grid_12 site-holder">
+    <div class="header">
+      <div class="header-items">
+        <a href="http://linkedin.com/in/vogram" target="_blank"><img src="../images/icon-linked.png" alt="" /></a>
+        <a href="http://twitter.com/vogram" target="_blank"><img src="../images/icon-twitter.png" alt=""/></a>
+        <a href="http://youtube.com/user/vogram" target="_blank"><img src="../images/icon-yt.png" alt="" /></a>
+        <a href="http://facebook.com/vogram-serbia" target="_blank"><img src="../images/icon-fb.png" alt="" /></a>
+        <form class="header-search" action="#">
+          <div class="wrapper">
+            <button class="search_button" type="submit"><img title="Search" src="../images/icon-magnify.png" alt="Find" /></button>
+            <input type="text" placeholder="Pretraga sajta.." name="search" class="search_box">
+          </div>
+        </form>
+        <a href="#"><img src="../images/icon-rs.png" alt="" /></a>
+        <a href="#"><img src="../images/icon-en.png" alt="" /></a>
+      </div>
+    </div>
+    <div class="logo-holder">
+      <div class="logo">
+        <img src="../images/logo.png" alt="Logo" />
+      </div>
+      <div class="logo-background"></div>
+    </div>
+    <div class="clear separator"></div>
+    <div class="main-holder" id="o-nama">
+      <div class="grid_2 left-column">
+        <div class="sidebar">
+          <ul>
+            <li><a href="../index.html">Naslovna</a></li>
+
+            <li class="main-menu" type="o-nama"><a href="#">O nama</a></li>
+            <li class="sub-menu o-nama"><a href="o-nama.html">o nama</a></li>
+            <li class="sub-menu o-nama"><a href="o-mirku.html">o Mirku</a></li>
+            <li class="sub-menu o-nama"><a href="press.html">press</a></li>
+
+            <li class="main-menu" type="projekti"><a href="#">Projekti</a></li>
+            <li class="sub-menu projekti"><a href="#">kultura i umetnost</a></li>
+            <li class="sub-menu projekti"><a href="#">ekologija</a></li>
+            <li class="sub-menu projekti"><a href="#">edukacija i seminari</a></li>
+            <li class="sub-menu projekti"><a href="../projekti/akcije/glavna.html">akcije</a></li>
+
+            <li class="main-menu" type="edukacija"><a href="#">Edukacija</a></li>
+            <li class="sub-menu edukacija"><a href="#">radionice i seminari</a></li>
+            <li class="sub-menu edukacija"><a href="#">edukativni materijali</a></li>
+
+            <li class="main-menu" type="multimedija"><a href="#">Multimedija</a></li>
+            <li class="sub-menu multimedija"><a href="#">video</a></li>
+            <li class="sub-menu multimedija"><a href="#">audio</a></li>
+            <li class="sub-menu multimedija"><a href="#">dizajn</a></li>
+            <li class="sub-menu multimedija"><a href="#">murali</a></li>
+
+            <li class="main-menu" type="online-shop"><a href="#">Online shop</a></li>
+            <li class="sub-menu online-shop"><a href="#">dizajn i multimedia</a></li>
+            <li class="sub-menu online-shop"><a href="#">Vogram moda</a></li>
+
+            <li><a href="#">Partneri</a></li>
+            <li><a href="../kontakti.html">Kontakti</a></li>
+          </ul>
+        </div>
+      </div>
+      <script type="text/javascript">
+        $("li.main-menu").hover(
+            function () {
+              var type_name = $(this).attr('type');
+              var child = $("li." + type_name+":first");
+              if (child.is(":visible")) {
+
+              } else {
+                $("li.sub-menu").slideUp('medium');
+                $("li."+type_name).slideDown('medium');
+              }
+            }
+        );
+      </script>
+      <div class="grid_8 right-column">
+        <div class="article-title">
+          <h3>O ORGANIZACIJI</h3>
+        </div>
+        <div class="shadow">
+          <div class="inner-shadow">
+            <div class="content-holder">
+              <div class="article-stubs">
+                <div class="article-stub">
+                  <h1>Volunteer Organization of Artistic Mindset (VOGRAM) je volonterska organizacija koja okuplja mlade
+                    aktiviste zainteresovane za unapredjenje svoje lokalne zajednice i globalnu povezanost sa pozitivnim
+                    trendovima kulturološke razmene i aktivističkog delovanja.</h1>
+                  <div class="dots-line"></div>
+                  <p>Vogram su osnovali volonteri sa dugim i raznolikim iskustvom. Radili smo sa omladinom iz domaćih
+                    i stranih organizacija, a spojila nas je zajednička vizija i želja da zaista menjamo svoju svakodnevnicu
+                    i pobedimo negativan stav koju lokalna zajednica ima sama o sebi. Verujemo da je negovanje
+                    fundamentalnih vrednosti zadatak naše genracije, i da je to ne samo važan već i inspirativan i zabavan
+                    zadatak!
+                    Zbog toga se naručito bavimo organizovanjem i podrškom aktivnosti i edukacije vezane za kulturu,
+                    umetničko i kreativno stvaralaštvo, i vrednosti civilnog društva sa akcentom na ljudskim pravima i
+                    održivom razvoju. Organizujemo stručne skupove, omladinske razmene, savetovanja, seminare i druge
+                    oblike edukacijea, kao i kulturne događaje, festivale, tribine, i radionice otvorenog tipa. Istražujemo
+                    i objavljujemo stručne edukacije. Okupljamo volontere koji žele da učestvuju u našim aktivnostima,
+                    obaveštavamo ih o mogućnostima razvoja lokalne zajednice i motivišemo da postanu aktivni članovi
+                    društva.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article-title">
+          <h3>MISIJA, VIZIJA I CILJEVI</h3>
+        </div>
+        <div class="shadow">
+          <div class="inner-shadow">
+            <div class="content-holder">
+              <div class="article-stubs">
+                <div class="article-stub">
+                  <h1>Imamo viziju društva u kom omladina zauzima aktivan stav prema zajednici i ima slobodu i instrumente
+                    kulturnog i umetničkog izražavanja i stvaralaštva.</h1>
+                  <div class="dots-line"></div>
+                  <p>
+                    <span style="font-weight: bold">Naša misija</span> je razvoj aktivizma kroz kulturu i umetnost putem edukacije i stvaralačkog rada kod dece i
+                    omladine u Republici Srbiji, jer verujemo u negovanje fundamentalnih vrednosti.
+                  </p>
+                  <div class="dots-line"></div>
+                  <p>
+                    <span style="font-weight: bold">Naši ciljevi</span> su promovisanje kulture i aktivnog kulturnog, umetničkog i kreativnog delovanaja kod dece
+                    i omladine, promovisanje vrednosti civilnog društva, podržavanje aktivnog učestvovanja u lokalnoj i
+                    globalnoj zajednici, promovisanje ekologije i održivog razvoja kao bazičnih vrednosti, promovisanje i
+                    podržavanje alternativnih životnih stilova i podržavanje decentralizacije kulture.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clear" style="height: 355px"></div>
+    </div>
+    <div class="footer">
+      <div class="footer-separator"></div>
+      <p>2012 VOGRAM Srbija| Kreirano od strane VOGRAM tima</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vogram</title>
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="stylesheet" href="../../stylesheets/reset.css" type="text/css" />
+  <link rel="stylesheet" href="../../stylesheets/stylesheet.css" type="text/css" />
+  <link rel="stylesheet" href="../../stylesheets/lightbox.css" type="text/css" />
+  <script type="text/javascript" src="../../javascript/jquery.js"></script>
+  <script type="text/javascript" src="../../javascript/lightbox.js"></script>
+
+  <!--[if lt IE 10]> <link rel="stylesheet" href="../../stylesheets/addonIE8.css" type="text/css" /><![endif]-->
+  <link rel="icon" type="image/png" href="../../images/favicon.png" />
+</head>
+<body>
+<div class="container holder">
+  <div class="grid_12 site-holder">
+    <div class="header">
+      <div class="header-items">
+        <a href="http://linkedin.com/in/vogram" target="_blank"><img src="../../images/icon-linked.png" alt="" /></a>
+        <a href="http://twitter.com/vogram" target="_blank"><img src="../../images/icon-twitter.png" alt=""/></a>
+        <a href="http://youtube.com/user/vogram" target="_blank"><img src="../../images/icon-yt.png" alt="" /></a>
+        <a href="http://facebook.com/vogram-serbia" target="_blank"><img src="../../images/icon-fb.png" alt="" /></a>
+        <form class="header-search" action="#">
+          <div class="wrapper">
+            <button class="search_button" type="submit"><img title="Search" src="../../images/icon-magnify.png" alt="Find" /></button>
+            <input type="text" placeholder="Pretraga sajta.." name="search" class="search_box">
+          </div>
+        </form>
+        <a href="#"><img src="../../images/icon-rs.png" alt="" /></a>
+        <a href="#"><img src="../../images/icon-en.png" alt="" /></a>
+      </div>
+    </div>
+    <div class="logo-holder">
+      <div class="logo">
+        <img src="../../images/logo.png" alt="Logo" />
+      </div>
+      <div class="logo-background"></div>
+    </div>
+    <div class="clear separator"></div>
+    <div class="main-holder" id="o-nama">
+      <div class="grid_2 left-column">
+        <div class="sidebar">
+          <ul>
+            <li><a href="../../index.html">Naslovna</a></li>
+
+            <li class="main-menu" type="o-nama"><a href="#">O nama</a></li>
+            <li class="sub-menu o-nama"><a href="../../o-nama/o-nama.html">o nama</a></li>
+            <li class="sub-menu o-nama"><a href="../../o-nama/o-mirku.html">o Mirku</a></li>
+            <li class="sub-menu o-nama"><a href="../../o-nama/press.html">press</a></li>
+
+            <li class="main-menu" type="projekti"><a href="#">Projekti</a></li>
+            <li class="sub-menu projekti"><a href="#">kultura i umetnost</a></li>
+            <li class="sub-menu projekti"><a href="#">ekologija</a></li>
+            <li class="sub-menu projekti"><a href="#">edukacija i seminari</a></li>
+            <li class="sub-menu projekti"><a href="glavna.html">akcije</a></li>
+
+            <li class="main-menu" type="edukacija"><a href="#">Edukacija</a></li>
+            <li class="sub-menu edukacija"><a href="#">radionice i seminari</a></li>
+            <li class="sub-menu edukacija"><a href="#">edukativni materijali</a></li>
+
+            <li class="main-menu" type="multimedija"><a href="#">Multimedija</a></li>
+            <li class="sub-menu multimedija"><a href="#">video</a></li>
+            <li class="sub-menu multimedija"><a href="#">audio</a></li>
+            <li class="sub-menu multimedija"><a href="#">dizajn</a></li>
+            <li class="sub-menu multimedija"><a href="#">murali</a></li>
+
+            <li class="main-menu" type="online-shop"><a href="#">Online shop</a></li>
+            <li class="sub-menu online-shop"><a href="#">dizajn i multimedia</a></li>
+            <li class="sub-menu online-shop"><a href="#">Vogram moda</a></li>
+
+            <li><a href="#">Partneri</a></li>
+            <li><a href="../../kontakti.html">Kontakti</a></li>
+          </ul>
+        </div>
+      </div>
+      <script type="text/javascript">
+        $("li.main-menu").hover(
+            function () {
+              var type_name = $(this).attr('type');
+              var child = $("li." + type_name+":first");
+              if (child.is(":visible")) {
+
+              } else {
+                $("li.sub-menu").slideUp('medium');
+                $("li."+type_name).slideDown('medium');
+              }
+            }
+        );
+      </script>
+      <div class="grid_8 right-column">
+        <div class="article-title">
+          <h3>AKCIJE</h3>
+        </div>
+        <div class="clear separator"></div>
+        <div class="title"><h1>Svaki dan - dan zena</h1></div>
+        <div class="navbar-holder right" style="">
+          <ul class="navbar">
+            <li class="nav-item"><a class="nav_link" href="o-akciji.html">O akciji</a></li>
+            <li class="nav-item"><a class="nav_link" href="video.html">Video</a></li>
+            <li class="nav-item selected"><a class="nav_link" href="galerija.html">Galerija</a></li>
+            <li class="nav-item"><a class="nav_link" href="novinski-clanci.html">Novinski članci</a></li>
+          </ul>
+        </div>
+        <div class="shadow">
+          <div class="inner-shadow">
+            <div class="content-holder">
+              <div class="galerija">
+                <div class="slika">
+                  <a href="galerija/slika1.png" rel="lightbox" title="Osmi mart">
+                    <img src="galerija/slika1.png" />
+                  </a>
+                  <a href="galerija/slika2.png" rel="lightbox" title="Osmi mart">
+                    <img src="galerija/slika2.png" />
+                  </a>
+                  <a href="galerija/slika3.png" rel="lightbox" title="Osmi mart">
+                    <img src="galerija/slika3.png" />
+                  </a>
+                  <a href="galerija/slika4.png" rel="lightbox" title="Osmi mart">
+                    <img src="galerija/slika4.png" />
+                  </a>
+                  <a href="galerija/slika5.png" rel="lightbox" title="Osmi mart">
+                    <img src="galerija/slika5.png" />
+                  </a>
+                  <a href="galerija/slika6.png" rel="lightbox" title="Osmi mart">
+                    <img src="galerija/slika6.png" />
+                  </a>
+                  <a href="galerija/slika7.png" rel="lightbox" title="Osmi mart">
+                    <img src="galerija/slika7.png" />
+                  </a>
+                  <a href="galerija/slika8.png" rel="lightbox" title="Osmi mart">
+                    <img src="galerija/slika8.png" />
+                  </a>
+                  <a href="galerija/slika9.png" rel="lightbox" title="Osmi mart">
+                    <img src="galerija/slika9.png" />
+                  </a>
+                  <a href="galerija/slika10.png" rel="lightbox" title="Osmi mart">
+                    <img src="galerija/slika10.png" />
+                  </a>
+                  <a href="galerija/slika11.png" rel="lightbox" title="Osmi mart">
+                    <img src="galerija/slika11.png" />
+                  </a>
+                </div>
+              </div>
+              <script type="text/javascript">
+                $('.galerija a').lightBox( maxHeight: 700, maxWidth: 700);
+              </script>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-separator"></div>
+      <p>2012 VOGRAM Srbija| Kreirano od strane VOGRAM tima</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
