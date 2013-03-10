@@ -39,12 +39,10 @@ define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 
 // tipovi projekata
 
-const PROJEKAT_KULTURA = 'Kultura';
-const PROJEKAT_EKOLOGIJA = 'Ekologija';
-const PROJEKAT_EDUKACIJA = 'Edukacija';
-const PROJEKAT_AKCIJA = 'Akcija';
-
-
+define ('PROJEKAT_KULTURA', 'Kultura');
+define ('PROJEKAT_EKOLOGIJA', 'Ekologija');
+define ('PROJEKAT_EDUKACIJA', 'Edukacija');
+define ('PROJEKAT_AKCIJA', 'Akcija');
 
 /* End of file constants.php */
 /* Location: ./application/config/constants.php */
