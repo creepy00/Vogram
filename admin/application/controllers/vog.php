@@ -52,7 +52,12 @@ class Vog extends CI_Controller {
 		$this->load->helper('url');
 		$this->load->model('model_unos');
 		
-		$greska = $this->model_unos->unosprojekta($this->input->post('type'),$this->input->post('text'),$this->input->post('video_link'),$this->input->post('links'),$this->input->post('sinopsis'),$this->input->post('name'));
+		$explodeLinks = array(explode("\n",$this->input->post('links')));
+		$links = serialize($explodeLinks);
+
+		//die($links);
+		
+		$greska = $this->model_unos->unosprojekta($this->input->post('type'),$this->input->post('text'),$this->input->post('video_link'),$links,$this->input->post('sinopsis'),$this->input->post('name'));
 		redirect('/vog/unosnovogprojekta/' . $greska, 'refresh');
 	}
 }
