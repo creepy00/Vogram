@@ -24,7 +24,7 @@ $attributes = array('class' => 'niceform', 'name' => 'forma');
 			<dd><input type="text" name="video_link" size="54" /></dd>
 		</dl>
 		<dl>
-			<dt><label for="links">Linkovi (odvojeni zarezom):</label></dt>
+			<dt><label for="links">Linkovi (odvojeni enterom):</label></dt>
 			<dd><textarea name="links" rows="5" id="" cols="35"></textarea></dd>
 		</dl>
 		<dl>
