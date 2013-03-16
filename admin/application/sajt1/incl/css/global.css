@@ -1,0 +1,140 @@
+ul{
+	list-style-type: none;
+}
+li{
+	list-style-type: none;
+}
+
+#container {
+	width:850px;
+	padding:10px;
+	margin: 0 auto 610px; /* pikseli za pomeranje footera*/
+	position:relative;
+	z-index:-5;
+}
+#logincontainer {
+	padding-top:180px;
+	#text-indent:30px;
+	#text-align:justify;
+	text-decoration: none;
+	#font-size: 16px;
+	color: #5a5a5a;
+
+	margin: 0 auto 200px; /* pikseli za pomeranje footera*/
+
+}
+#regcontainer {
+	padding-top:180px;
+	#text-indent:30px;
+	#text-align:justify;
+	text-decoration: none;
+	#font-size: 16px;
+	color: #5a5a5a;
+
+	margin: 0 auto 50px; /* pikseli za pomeranje footera*/
+
+}
+#frame {
+	position:absolute;
+	z-index:-9999;
+	width:980px;
+	height:503px;
+	top:146px;
+	left:-55px;
+}
+
+/*
+	Slideshow style
+*/
+
+#slides {
+	position:absolute;
+	top:186px;
+	left:55px;
+	z-index:100;
+}
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	If height not specified height will be set by the slide content
+	Set to display none, prevents content flash
+*/
+
+.slides_container {
+	width:760px;
+	height:440px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+	margin-top:-10px;
+}
+.slides_container a {
+	width:760px;
+	height:385px;
+	display:block;
+}
+.slides_container a img {
+	display:block;
+}
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	Offeset for the 20px of padding
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+#slides .slide {
+	padding:20px;
+	width:830px;
+	height:410px;
+	display:block;
+}
+
+/*
+	Next/prev buttons
+*/
+
+/*
+	Pagination
+*/
+
+.pagination {
+	position:relative;
+	z-index:500;
+	margin: 9px 189px 0;
+	width:500px;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	list-style:none;
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url("../img/pagination.png");
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
+
+/*
+	Footer
+*/
+
+/*
+	Type and anchors
+*/
