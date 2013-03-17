@@ -8,10 +8,10 @@ $attributes = array('class' => 'niceform', 'name' => 'forma');
 			<dt><label for="type">Tip projekta:</label></dt>
 			<dd>
 				<select size="1" name="type" id="" style="width:80px;">
-					<option>Kultura i umetnost</option>
-					<option>Ekologija</option>
-					<option>Edukacija i seminari</option>
-					<option>Akcije</option>
+					<option value="KulturaType">Kultura i umetnost</option>
+					<option value="EkologijaType">Ekologija</option>
+					<option value="EdukacijaType">Edukacija i seminari</option>
+					<option value="AkcijeType">Akcije</option>
 				</select>
 			</dd>
 		</dl>

@@ -89,7 +89,7 @@ ddaccordion.init({
                     <ul>
                     
                     <li><?php echo anchor("vog/unosnovogprojekta", "Unos novog projekta", array("accesskey" => "1")); ?></li>
-                    <li><?php echo anchor("vog/proizvodi", "Brisanje projekta", array("accesskey" => "2")); ?></li>
+                    <li><?php echo anchor("vog/brisanjeprojekta", "Pregled i brisanje projekata", array("accesskey" => "2")); ?></li>
                     
                     </ul>
                 </div>
